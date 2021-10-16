@@ -1,0 +1,13 @@
+
+header
+{
+    background: black;
+    min-height: 15px;
+    max-height: 50px;
+}
+header > p
+{
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
