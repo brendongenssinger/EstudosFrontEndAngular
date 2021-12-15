@@ -6,9 +6,9 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
 
-
+export class AppComponent 
+{
   httpOptions =
     {
       headers: new HttpHeaders(
@@ -38,7 +38,7 @@ export class AppComponent {
     code: this._code
   };
 
-  tokenInstagram = 'IGQVJYZAzU3c0wzVDZAJU0t5Q2w1MTlDT1p4dG5WQlN5amNZAenU0ZAk9rNml1d1g4M1h4WDFPSTB4VnRKMk1yUlFlLVpQMXdkLTJEVy10bjhRMU5ZAM0pfQlp3cXEyanVVTUZAPLVpyMTNOckh0anQ3QmlnSAZDZD';
+ tokenInstagram = 'IGQVJYZAzU3c0wzVDZAJU0t5Q2w1MTlDT1p4dG5WQlN5amNZAenU0ZAk9rNml1d1g4M1h4WDFPSTB4VnRKMk1yUlFlLVpQMXdkLTJEVy10bjhRMU5ZAM0pfQlp3cXEyanVVTUZAPLVpyMTNOckh0anQ3QmlnSAZDZD';
 
 
 

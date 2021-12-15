@@ -2,31 +2,52 @@
     <!-- Content here -->
     <!-- Example single danger button -->
     <app-nav-menu></app-nav-menu>
+
     <app-component-carousel></app-component-carousel>
+
+    <hr />
     <div class="row">
 
-        <div class="col">
-            <h3>Sobre a Empresa Alternativa Científica</h3>
-            <p class="justify">
+        <div class="col-4 shadow-lg p-3 mb-5 bg-body rounded">
+            <div class="card col">
+                <figure class="figure">
+                    <img src="../assets/1.bmp" class="figure-img img-fluid rounded" alt="...">
+                    <!-- <figcaption class="figure-caption">.</figcaption> -->
+                </figure>
+                <div class="card-body" style="width: 18rem;">
+                    <h5 class="card-title">Sobre a Empresa Alternativa Científica</h5>
+                    <p class="card-text text-truncate">
+                        A Alternativa, empresa fundada em 2009, especializada e
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ler sobre a empresa
+                    </button>
+                    <app-modals id="#exampleModal" tipoModal="teste" texto="A Alternativa, empresa fundada em 2009, especializada e
+                    focada em
+                    produtos para
+                    análises laboratóriais,
+                    materiais hospitalares, materiais de proteção (Individual e Coletiva), produtos para segurança e
+                    Equipamentos em geral. Realizamos trabalhos no qual atendemos diretamente em diversos setores de
+                    indústrias,
+                    hospitais, laboratórios e órgãos públicos, sempre implantando e inovando conforme exige as novas
+                    técnicas e
+                    tecnologias da Era Digital. Oferecendo uma ampla linha de produtos e serviços, tanto para a
+                    iniciativa
+                    privada quanto pública onde procuramos desempenhar nosso trabalho com dedicação e eficiência,
+                    garantindo
+                    assim o sucesso de nossos negócios. Fundada por profissionais que somam mais de 30 anos de
+                    atuação
+                    mercado,
+                    com poucos anos a Alternativa conseguiu se tornar uma empresa de renome no Estado de Goiás e
+                    outros
+                    Estados,
+                    pois trabalhamos com nossos clientes não só na intenção de fecharmos a venda, mas sim com a
+                    intenção de
+                    prestarmos assessoria, visando a satisfação de nossos clientes..">
 
-                A Alternativa, empresa fundada em 2009, especializada e focada em produtos para análises laboratóriais,
-                materiais hospitalares, materiais de proteção (Individual e Coletiva), produtos para segurança e
-                Equipamentos em geral. Realizamos trabalhos no qual atendemos diretamente em diversos setores de
-                indústrias,
-                hospitais, laboratórios e órgãos públicos, sempre implantando e inovando conforme exige as novas
-                técnicas e
-                tecnologias da Era Digital. Oferecendo uma ampla linha de produtos e serviços, tanto para a iniciativa
-                privada quanto pública onde procuramos desempenhar nosso trabalho com dedicação e eficiência, garantindo
-                assim o sucesso de nossos negócios. Fundada por profissionais que somam mais de 30 anos de atuação
-                mercado,
-                com poucos anos a Alternativa conseguiu se tornar uma empresa de renome no Estado de Goiás e outros
-                Estados,
-                pois trabalhamos com nossos clientes não só na intenção de fecharmos a venda, mas sim com a intenção de
-                prestarmos assessoria, visando a satisfação de nossos clientes.
-            </p>
-        </div>
-        <div class="col">
-            <img src="../assets/Logo_Alternativa.jpeg" class="img-fluid" alt="...">
+                    </app-modals>
+                </div>
+            </div>
         </div>
     </div>
-</div>
